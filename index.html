@@ -62,5 +62,218 @@
                 </div>
             </div>
         </div>
-    </body>
+<section id="product" class="py-5 bg-light">
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- 1. Sidebar Kategori -->
+            <div class="col-md2 mb-4">
+                <h5 class="font-weight-bold text-dark mb-3"><i class="fa-solid fa filter mr-2"></i>Kategori</h5>
+                <ul class="list-group list-group-flush shadow-sm rounded" id="categorysidebar">
+                    <li class="list-group-item category-btn active bg-warning text-dark font-weight-bold border-0"
+                        data-filter="semua" style="cursor: pointer">Semua Item</li>
+                    <li class="list-groupitem category-btn" data-filter="outwear" style="cursor: : pointer;">Outwear &
+                        Jaket</li>
+                    <li class="list-groupitem category-btn" data-filter="shirt" style="cursor: : pointer;">T-Shirt</li>
+                    <li class="list-groupitem category-btn" data-filter="pants" style="cursor: : pointer;">Pants</li>
+                    <li class="list-groupitem category-btn" data-filter="shoes" style="cursor: : pointer;">Shoes</li>
+                    <li class="list-groupitem category-btn" data-filter="acc" style="cursor: : pointer;">Accecories</li>
+                </ul>
+            </div>
+
+            <!-- 2. Area Utama Katalog (Sisi Kanan) -->
+            <div class="col-md-10">
+
+                <!-- Banner Carousel Promo Katalog -->
+                <div id="bannerthrift" class="banner slide mb-4 shadow-sm rounded overflow-hidden" data-ride="banner">
+                    <div class="banner-inner">
+                        <div class="banner-item active">
+                            <img src="https://my.neighbor.org/wp-content/uploads/2020/08/reasons-to-buy-from-thrift-stores-960x640.jpg?x89811=crop"
+                                class="d-block w-100" alt="Promo Thrift 1"
+                                style="max-height: 350px; object-fit: cover;">
+                        </div>
+                        <div class="banner-item">
+                            <img src="https://cdn.antaranews.com/cache/1200x800/2025/10/29/Rencana-pelarangan-impor-peredaran-pakaian-bekas-ilegal-241025-Pal-5.jpg=crop"
+                                class="d-block w-100" alt="Promo Thrift 2"
+                                style="max-height: 350px; object-fit: cover;">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#bannerthrift" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-prev" href="#bannerthrift" role="button" data-slide="next">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                </div>
+
+                <!--Judul Katalog -->
+                <h3 class="text-center font-weight-bold my-4">DROP HARI INI</h3>
+
+                <!-- Baris Produk -->
+                <div class="row">
+                    <!-- Produk 1 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="outwear">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/488785/sub/goods_488785_sub14_3x4.jpg=crop"
+                                class="card-img-top" alt="Zipper Jacket" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size L Fit XL</small>
+                                <h6 class="card-title font-weight-bold">Zipper Jacket</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 600,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4.9</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 2 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="pants">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/488450/sub/goods_488450_sub14_3x4.jpg=crop"
+                                class="card-img-top" alt="Baggy Jeans" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size L</small>
+                                <h6 class="card-title font-weight-bold">Baggy Jeans</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 700,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4.9</strong> <span
+                                        class="text-muted">(9.5/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 3 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="shirt">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/422992/sub/goods_422992_sub14_3x4.jpg?width=600=crop"
+                                class="card-img-top" alt="Short Sleeve Crew Neck T-Shirt"
+                                style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size L Fit XL</small>
+                                <h6 class="card-title font-weight-bold">Short Sleeve Crew Neck T-Shirt</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 120,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4.9</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 4 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="outwear">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489429/sub/goods_489429_sub14_3x4.jpg?width=600=crop"
+                                class="card-img-top" alt="Seamless Down Parka Jacket"
+                                style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size XL</small>
+                                <h6 class="card-title font-weight-bold">Seamless Down Parka Jacket</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 1,200,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4.5</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 5 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="acc">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://matahari.com/cdn/shop/files/69003594-1_affad683-2516-47eb-b964-4b8b0afaeeb5.jpg?v=1772111503&width=720=crop"
+                                class="card-img-top" alt="Cross Body Bag" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size F</small>
+                                <h6 class="card-title font-weight-bold">Cross Body Bag</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 250,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 5 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="shoes">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/873a17ee-d4be-49e2-804b-88be84bab00e/W+NIKE+P-6000.png=crop"
+                                class="card-img-top" alt="Nike P-6000" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size 35,5 - 42</small>
+                                <h6 class="card-title font-weight-bold">Nike P-6000</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 1,300.000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>5</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 6 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="pants">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/487957/sub/goods_487957_sub17_3x4.jpg?width=600=crop"
+                                class="card-img-top" alt="Straight Wide Leg Pants"
+                                style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size XS - 3XL</small>
+                                <h6 class="card-title font-weight-bold">Straight Wide Leg Pants</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 400,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4,4</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 7 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="acc">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://gm-prd-resource.gentlemonster.com/catalog/product/S11005251/5969cbf8-4308-474a-b09e-18b7fe9f97ec/11005251_FRONT.jpg=crop"
+                                class="card-img-top" alt="Daze 01 Recycled" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">Size XS - XL</small>
+                                <h6 class="card-title font-weight-bold">Daze 01 Recycled</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 5,690,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>5</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Produk 8 -->
+                    <div class="col-md3 col-sm-6 mb-4 product-card" data-category="shirt">
+                        <div class="card h-100 shadow-sm">
+                            <img src="https://image.uniqlo.com/GU/ST3/WesternCommon/imagesgoods/362202/sub/goods_362202_sub53_3x4.jpg?width=400=crop"
+                                class="card-img-top" alt="Sheer Dot T-Shirt" style="height: 180px; object-fit: cover;">
+                            <div class="card-body px-0 pt-2 pb-0 d-flex flex-column">
+                                <small class="text-muted mb-1">All Size</small>
+                                <h6 class="card-title font-weight-bold">Sheer Dot T-Shirt</h6>
+                                <div class="h5 font-weight-bold text-dark mb-1">Rp 230,000</div>
+                                <div class="small text-dark mt-auto">
+                                    <i class="fa-solid fa-star text-dark mr-1"></i><strong>4.2</strong> <span
+                                        class="text-muted">(9/10 Grade A)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+  </body>
 </html>
