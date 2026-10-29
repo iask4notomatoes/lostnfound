@@ -2,7 +2,7 @@
 
 ## Basis perubahan
 
-Implementasi dibuat dari `origin/feature/navbar` karena navbar belum tersedia di `main`. Blok banner statis pada komentar `<!--BANNER/hero carousel HEADER-->` diganti dengan satu Bootstrap carousel ber-ID `hero-carousel`.
+Implementasi awal dibuat dari `origin/feature/navbar`. Setelah navbar dan katalog tersedia di `main`, `origin/main` digabungkan ke branch fitur dan blok banner statis pada komentar `<!--BANNER/hero carousel HEADER-->` diganti dengan satu Bootstrap carousel ber-ID `hero-carousel`. Navbar dan isi katalog dari `main` tetap dipertahankan.
 
 ## File
 
@@ -13,7 +13,7 @@ Implementasi dibuat dari `origin/feature/navbar` karena navbar belum tersedia di
 
 ## Integrasi ke branch lain
 
-1. Pastikan perubahan `feature/navbar` sudah menjadi basis branch tujuan.
+1. Gunakan `main` terbaru yang sudah memuat navbar dan katalog sebagai basis branch tujuan.
 2. Salin folder `assets/` dan `INTEGRATION.md`.
 3. Di `index.html`, tambahkan `assets/css/hero-carousel.css` setelah stylesheet existing.
 4. Ganti hanya banner di bawah komentar `<!--BANNER/hero carousel HEADER-->` dengan `<section id="hero-carousel">...</section>` dari file ini.
@@ -36,6 +36,7 @@ Ketiganya tersedia di bawah [Pexels License](https://www.pexels.com/license/): g
 
 - Browser responsive pada viewport 375×812, 768×1024, dan 1440×900.
 - Tidak ada horizontal overflow pada ketiga viewport.
+- Katalog gabungan tetap menampilkan sembilan kartu produk dan CTA mengarah ke section katalog.
 - Indikator, Previous, Next, keyboard ArrowLeft, pause/play, dan perpindahan otomatis 5 detik berfungsi.
 - Reduced motion menghentikan autoplay saat halaman dibuka; pengguna tetap dapat memulainya lewat tombol play.
 - Ketiga CTA menuju `#produk`.
