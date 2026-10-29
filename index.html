@@ -1,5 +1,113 @@
-<!-- Section 3 Katalog Produk & Filter -->
-<section id="product" class="py-5 bg-light">
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--bootstrap CSS v4.2.1-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+        <!--FontAwesome CSS CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/hero-carousel.css">
+
+        <title>lost n found - Vintage & Thrift Store</title>
+    </head>
+
+    <body>
+        <!--section 1-->
+        <header id="home" class="sticky-top">
+            <nav class="navbar navbar-expand-lg-navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand font-weight-bold text-warning" href="#home">
+                        <i class="fa-solid fa-shirt mr-2"></i>lost n found
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home">Beranda<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">Tentang Kami</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#produk">Katalog Thrift</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Kontak</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Cari baju, hoodie" aria-label="Search">
+                            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Cari</button>
+                            <a href="#" class="text-warning ml-3 h5 mb-0" title="Keranjang Belanja"> <i class="fa-brands fa-whatsapp"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--BANNER/hero carousel HEADER-->
+        <section id="hero-carousel" class="carousel slide hero-carousel" aria-label="Koleksi unggulan lost n found">
+            <div class="carousel-indicators hero-carousel__indicators" role="group" aria-label="Pilih slide">
+                <button type="button" data-target="#hero-carousel" data-slide-to="0" class="active" aria-label="Tampilkan slide 1"></button>
+                <button type="button" data-target="#hero-carousel" data-slide-to="1" aria-label="Tampilkan slide 2"></button>
+                <button type="button" data-target="#hero-carousel" data-slide-to="2" aria-label="Tampilkan slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <article class="carousel-item active hero-carousel__slide hero-carousel__slide--welcome">
+                    <div class="hero-carousel__overlay" aria-hidden="true"></div>
+                    <div class="container hero-carousel__content">
+                        <p class="hero-carousel__eyebrow">Welcome to lost n found</p>
+                        <h1>Find Your Style,<br>Rediscover the Past</h1>
+                        <p class="hero-carousel__description">Temukan koleksi pakaian thrift dan vintage pilihan dengan gaya unik dan harga terjangkau.</p>
+                        <a class="btn hero-carousel__cta" href="#produk">Jelajahi Koleksi <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                    </div>
+                    <p class="hero-carousel__visual-label" aria-hidden="true"><span>01</span> Pre-loved essentials</p>
+                </article>
+
+                <article class="carousel-item hero-carousel__slide hero-carousel__slide--curated">
+                    <div class="hero-carousel__overlay" aria-hidden="true"></div>
+                    <div class="container hero-carousel__content">
+                        <p class="hero-carousel__eyebrow">Curated vintage collection</p>
+                        <h2>Vintage Never Goes<br>Out of Style</h2>
+                        <p class="hero-carousel__description">Pilihan fashion vintage yang dikurasi untuk melengkapi gaya personalmu.</p>
+                        <a class="btn hero-carousel__cta" href="#produk">Lihat Koleksi <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                    </div>
+                    <p class="hero-carousel__visual-label" aria-hidden="true"><span>02</span> Curated textures</p>
+                </article>
+
+                <article class="carousel-item hero-carousel__slide hero-carousel__slide--unique">
+                    <div class="hero-carousel__overlay" aria-hidden="true"></div>
+                    <div class="container hero-carousel__content">
+                        <p class="hero-carousel__eyebrow">One of a kind</p>
+                        <h2>One Piece. One Story.<br>One Style.</h2>
+                        <p class="hero-carousel__description">Temukan fashion unik dengan stok terbatas. Jadikan setiap outfit bagian dari ceritamu.</p>
+                        <a class="btn hero-carousel__cta" href="#produk">Temukan Gayamu <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                    </div>
+                    <p class="hero-carousel__visual-label" aria-hidden="true"><span>03</span> Made to be re-worn</p>
+                </article>
+            </div>
+
+            <a class="carousel-control-prev hero-carousel__control" href="#hero-carousel" role="button" data-slide="prev" aria-label="Slide sebelumnya">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next hero-carousel__control" href="#hero-carousel" role="button" data-slide="next" aria-label="Slide berikutnya">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+
+            <button class="hero-carousel__toggle" type="button" aria-label="Jeda carousel otomatis" aria-pressed="false">
+                <i class="fa-solid fa-pause" aria-hidden="true"></i>
+            </button>
+        </section>
+
+<section id="produk" class="py-5 bg-light">
     <div class="container-fluid">
         <div class="row">
 
@@ -209,3 +317,9 @@
         </div>
     </div>
 </section>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="assets/js/hero-carousel.js"></script>
+  </body>
+</html>
