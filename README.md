@@ -1,52 +1,29 @@
-# coba-aja-dulu
+# LOST N FOUND - Thrift Store Website
 
-    <footer id="contact" class="bg-dark text-white pt-5 pb-3 border-top">
-      <div class="container-fluid px-4">
-        <div class="row">
-          <div class="col-md-3 mb-4">
-            <h5 class="font-weight-bold text-warning mb-3">LOST N FOUND</h5>
-            <p class="text-light small">
-              Toko thrift pakaian bekas terkurasi & siap pakai. Kami mendukung gaya hidup berkelanjutan melalui eco-fashion.
-            </p>
-          </div>
+Website ini berisikan katalog thrift yang menjual di platform online yang dibangun sebagai tugas akhir project kolaborasi dari CATALYST 2026
 
-          <div class="col-md-3 mb-4">
-            <h5 class="font-weight-bold text-warning mb-3">LAYANAN KAMI</h5>
-            <ul class="list-unstyled small text-light">
-              <li class="mb-1"><i class="fa-solid fa-check text-warning mr-2"></i>Steril & Siap Pakai</li>
-              <li class="mb-1"><i class="fa-solid fa-check text-warning mr-2"></i>100% Barang Authentic</li>
-              <li class="mb-1"><i class="fa-solid fa-check text-warning mr-2"></i>Pengiriman Cepat</li>
-            </ul>
-          </div>
+## Anggota Kelompok
+**[Ketua Kelompok]**-[@iask4notomatoes](https://github.com/iask4notomatoes)
+**[Nama Anggota 1]**-[@leiniverse](https://github.com/leiniverse)
+**[Nama Anggota 2**-[@galuh82](https://github.com/galuh82)
+**[Nama Anggota 3**-[@anastasya2134](https://github.com/anastasya2134)
 
-          <div class="col-md-3 mb-4">
-            <h5 class="font-weight-bold text-warning mb-3">REKAN BINAAN</h5>
-            <ul class="list-unstyled small text-light">
-              <li class="mb-1"><i class="fa-store fa-solid mr-2 text-warning"></i>Catalyst Maba 2026</li>
-              <li class="mb-1"><i class="fa-store fa-solid mr-2 text-warning"></i>Eco-Fashion ID</li>
-            </ul>
-          </div>
+## Latar Belakang dan Tujuan
+Lost n Found hadir sebagai platform thrift yang mendukung gaya hidup berkelanjutan terutama pada fashion remaja dan mahasiswa. Website ini memberikan informasi terkait produk mulai dari gambar asli, detail, hingga ukuran sehingga barang yang tersedia siap dikirim kepada pembeli terutama bagi pecinta fashion.
 
-          <div class="col-md-3 mb-4">
-            <h5 class="font-weight-bold text-warning mb-3">HUBUNGI KAMI</h5>
-            <p class="small mb-2"><i class="fa-solid fa-phone text-warning mr-2"></i>0812-3456-7890</p>
-            <p class="small mb-2"><i class="fa-solid fa-envelope text-warning mr-2"></i>cs@lostnfound.id</p>
-            <p class="small mb-2"><i class="fa-brands fa-instagram text-warning mr-2"></i>@lostnfound.thrift</p>
-          </div>
-        </div>
+## Fitur dan Section Utama
+1. Navigasi responsif yang berisi promo carousel banner.
+2. Informasi yang berisi latar belakang dari Lost n Found.
+3. Katalog dengan filter interaktif yang memisahkan kategori outwear, t-shirt, pants, shoes, dan accessories secara real-time.
+4. Informasi kontak, layanan, dan hak cipta.
 
-        <hr class="bg-secondary my-3">
+## Teknologi yang Digunakan
+1. HTML5 dan CSS3
+2. JavaScript (ES6)
+3. Bootstrap 4.2.1
+4. FontAwesome Icons
 
-        <div class="row">
-          <div class="col-md-12 text-center small text-muted">
-            <p class="mb-0">© 2026 lost n found - Catalyst Maba Project. All Rights Reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/js/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
-  </body>
-</html>
+## Cara Menjalankan Projek Secara Lokal
+Clone repository ini
+'''bash
+git clone [https://github.com/iask4notomatoes/lostnfound.git](https://github.com/iask4notomatoes/lostnfound.git)
